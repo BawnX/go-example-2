@@ -11,7 +11,7 @@ swagger:
 	swagger generate spec -o ./swagger.yaml --scan-models
 
 run:
-	BIND_ADDRESS=3000 LOG_LEVEL=trace BUILD_MODE=local air -c air.toml
+	BIND_ADDRESS=3000 LOG_LEVEL=trace BUILD_MODE=local CONNECTION_SQL="sqlserver://sa:81Tecno@10.22.52.44:1433?database=ANS_UNRELATED_SCHEMAS_DESA&trustServerCertificate=true" air -c air.toml
 
 generate_client:
 	cd sdk && swagger generate client -f ../swagger.yaml -A product-api

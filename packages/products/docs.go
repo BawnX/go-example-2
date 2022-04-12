@@ -16,8 +16,8 @@
 package products
 
 import (
-	"ms-2/packages/products/handlers"
-	"ms-2/packages/shared/models"
+	"github.com/BawnX/go-example-2/packages/products/handlers"
+	"github.com/BawnX/go-example-2/packages/shared/models"
 )
 
 //

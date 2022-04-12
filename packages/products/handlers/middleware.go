@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"context"
-	"ms-2/packages/shared/models"
-	"ms-2/packages/shared/utils"
+	"github.com/BawnX/go-example-2/packages/shared/models"
+	"github.com/BawnX/go-example-2/packages/shared/utils"
 	"net/http"
 )
 

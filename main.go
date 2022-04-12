@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/BawnX/go-example-2/config"
+	"github.com/BawnX/go-example-2/packages"
+	"github.com/BawnX/go-example-2/packages/shared/utils"
 	"github.com/gorilla/mux"
-	"ms-2/config"
-	"ms-2/packages"
-	"ms-2/packages/shared/utils"
 	"os"
 )
 

@@ -1,6 +1,6 @@
 package repositories
 
-import "ms-2/packages/shared/models"
+import "github.com/BawnX/go-example-2/packages/shared/models"
 
 // GetProducts returns all products from the database
 func GetProducts() models.Products {

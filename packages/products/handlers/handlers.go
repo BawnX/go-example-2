@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"fmt"
+	"github.com/BawnX/go-example-2/packages/shared/utils"
 	"github.com/gorilla/mux"
 	"github.com/hashicorp/go-hclog"
-	"ms-2/packages/shared/utils"
 	"net/http"
 	"strconv"
 )

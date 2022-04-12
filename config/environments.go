@@ -11,6 +11,7 @@ func NewEnvironment() {
 var BindAddress = env.Int("BIND_ADDRESS", false, 8080, "Bind address for the server")
 var LogLevel = env.String("LOG_LEVEL", false, "debug", "Log output level for the server [debug, info, trace]")
 var buildMode = env.String("BUILD_MODE", false, "local", "Is build production server")
+var ConnectionSql = env.String("CONNECTION_SQL", false, "", "Sql Connection string")
 
 var localMode = "local"
 
